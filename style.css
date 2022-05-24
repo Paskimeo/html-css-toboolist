@@ -23,6 +23,20 @@ body {
 
 }
 
+
+
+/*header*/
+header{
+    background-color: white;  
+}
+
+
+/*contenuto princilape*/
+.top{
+    padding: 10px;
+}
+
+
 /*buttons*/
 .btn{
     text-decoration: none;
@@ -43,14 +57,34 @@ body {
     color: gray;
 }
 
+/*lista*/
+ul {
+    list-style: none;
+   padding-top: 1cm;
+   padding-left: 1.3cm;
+   line-height: 1cm;
+   
 
-/*header*/
-header{
+    margin-left: auto;
+    margin-right: auto;
+    
     background-color: white;
+    border-radius: 3px;
+}
+
+.circle{
+  
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.btn-editional{
+    background-color:lightskyblue;
+    color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 20px
     
 }
 
-/*contenuto princilape*/
-.top{
-    padding: 10px;
-}
