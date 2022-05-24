@@ -1,28 +1,56 @@
+
+/*reset generale*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
+/*proprietà comuni*/
 body {
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+/*buttons*/
+.btn{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px
+
+}
+
+.btn-blue{
+    margin-left: 1cm;
+    background-color:lightskyblue;
+    color: white;
+}
+
+
+.btn-grey{
+    color: gray;
+}
+
+
+/*header*/
 header{
     background-color: white;
     
 }
 
-.container{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    background-color: white;
-
-}
+/*contenuto princilape*/
 .top{
     padding: 10px;
 }
