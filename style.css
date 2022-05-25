@@ -8,7 +8,7 @@
 
 /*proprietà comuni*/
 body {
-    background-color: lightgray;
+    background-color: rgba(235, 230, 230, 0.888);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +20,7 @@ body {
     margin-top: 5%;
     background-color: white;
     border-radius: 3px;
+    border-bottom: 5px solid gray;
     
    
 
@@ -32,12 +33,15 @@ header{
     background-color: white;  
     border-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
 
 
 /*contenuto princilape*/
 .top{
     padding: 10px;
+    background-color: white;
+   
 }
 
 
@@ -71,7 +75,7 @@ ul {
     margin-right: auto;
     background-color: white;
     border-radius: 4px;
-    
+    border-top: 5px grey;
 }
 
 .circle{
@@ -83,6 +87,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     margin-right: 0.5cm;
+    
 
     
     
